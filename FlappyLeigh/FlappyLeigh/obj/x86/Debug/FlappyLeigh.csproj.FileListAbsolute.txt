@@ -3,3 +3,8 @@ Z:\MonoGame\FlappyLeigh\FlappyLeigh\Binary\FlappyLeigh.pdb
 Z:\MonoGame\FlappyLeigh\FlappyLeigh\FlappyLeigh\obj\x86\Debug\FlappyLeigh.csprojResolveAssemblyReference.cache
 Z:\MonoGame\FlappyLeigh\FlappyLeigh\FlappyLeigh\obj\x86\Debug\FlappyLeigh.exe
 Z:\MonoGame\FlappyLeigh\FlappyLeigh\FlappyLeigh\obj\x86\Debug\FlappyLeigh.pdb
+C:\Users\Carter\Documents\FlappyLeigh\FlappyLeigh\FlappyLeigh\obj\x86\Debug\FlappyLeigh.exe
+C:\Users\Carter\Documents\FlappyLeigh\FlappyLeigh\FlappyLeigh\obj\x86\Debug\FlappyLeigh.pdb
+C:\Users\Carter\Documents\FlappyLeigh\FlappyLeigh\Binary\FlappyLeigh.exe
+C:\Users\Carter\Documents\FlappyLeigh\FlappyLeigh\Binary\FlappyLeigh.pdb
+C:\Users\Carter\Documents\FlappyLeigh\FlappyLeigh\FlappyLeigh\obj\x86\Debug\FlappyLeigh.csprojResolveAssemblyReference.cache

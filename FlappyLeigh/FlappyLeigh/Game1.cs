@@ -22,12 +22,15 @@ namespace FlappyLeigh
         Texture2D picture;
         Rectangle player;
 
+        KeyboardState kState;
+        Player p1;
+
         public Game1()
             : base()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
-            player = new Rectangle(10, 10, 10, 10);
+            player = new Rectangle(50, 350, 20, 20);
         }
 
         /// <summary>
@@ -39,7 +42,8 @@ namespace FlappyLeigh
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
+            p1 = new Player("CDOG", PlayerSprites.Leigh);
+            p1.Rect = player;
             base.Initialize();
         }
 
@@ -76,7 +80,13 @@ namespace FlappyLeigh
                 Exit();
 
             // TODO: Add your update logic here
+            kState = Keyboard.GetState();
+            if (kState.IsKeyDown(Keys.Enter))
+            {
+                p1.Flap();
+            }
 
+            p1.Gravity();
             base.Update(gameTime);
         }
 
@@ -91,7 +101,7 @@ namespace FlappyLeigh
             // TODO: Add your drawing code here
 
             spriteBatch.Begin();
-            spriteBatch.Draw(picture, new Rectangle(200, 200, 30, 30), player , Color.Red);
+            spriteBatch.Draw(picture, p1.Rect, Color.White);
             spriteBatch.End();
 
             base.Draw(gameTime);
