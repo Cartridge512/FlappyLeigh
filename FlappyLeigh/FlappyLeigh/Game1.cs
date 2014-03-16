@@ -91,7 +91,7 @@ namespace FlappyLeigh
             // TODO: Add your drawing code here
 
             spriteBatch.Begin();
-            spriteBatch.Draw(picture, new Rectangle(20, 20, 30, 30), player , Color.Red);
+            spriteBatch.Draw(picture, new Rectangle(200, 200, 30, 30), player , Color.Red);
             spriteBatch.End();
 
             base.Draw(gameTime);
