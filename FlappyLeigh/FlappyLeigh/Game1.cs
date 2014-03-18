@@ -30,7 +30,7 @@ namespace FlappyLeigh
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
-            player = new Rectangle(50, 350, 20, 20);
+            player = new Rectangle(50, 50, 20, 20);
         }
 
         /// <summary>
@@ -87,6 +87,7 @@ namespace FlappyLeigh
             }
 
             p1.Gravity();
+            p1.Timer += 0.002;
             base.Update(gameTime);
         }
 
